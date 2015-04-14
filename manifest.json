@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "show me the total airbnb trip price",
+  "name": "Airbnb total price",
   "description": "Show the total price of your airbnb trip on search result pages",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "permissions": [
     "tabs",
     "https://www.airbnb.com/s/*"
