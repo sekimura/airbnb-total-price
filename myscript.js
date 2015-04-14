@@ -10,7 +10,7 @@ function patch(){
     qdict.authenticity_token = token;
     qdict.checkin = data.checkin;
     qdict.checkout = data.checkout;
-    qdict.number_of_guests = data.guests;
+    qdict.number_of_guests = data.guests || "1";
     qdict.hosting_id = id;
 
     var url = urlBase + $.param(qdict);
